@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221117 17:27:30.224" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="E:\Programowanie\Warsztaty Mobica\Day2\TestSuite.robot">
+<test id="s1-t1" name="Test Case" line="15">
+<kw name="Should Be Equal with Log">
+<arg>Kiwi</arg>
+<kw name="Log" library="BuiltIn">
+<arg>Szukane słowo to: ${EXPECTED_TEXT}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221117 17:27:30.237" level="INFO">Szukane słowo to: Apple</msg>
+<status status="PASS" starttime="20221117 17:27:30.236" endtime="20221117 17:27:30.237"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${EXPECTED_TEXT}</arg>
+<arg>${dupa}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<msg timestamp="20221117 17:27:30.237" level="FAIL">Apple != Kiwi</msg>
+<status status="FAIL" starttime="20221117 17:27:30.237" endtime="20221117 17:27:30.237"/>
+</kw>
+<status status="FAIL" starttime="20221117 17:27:30.236" endtime="20221117 17:27:30.237"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>I'm Done!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20221117 17:27:30.237" endtime="20221117 17:27:30.237"/>
+</kw>
+<status status="FAIL" starttime="20221117 17:27:30.236" endtime="20221117 17:27:30.237">Apple != Kiwi</status>
+</test>
+<doc>Pierwsze testy!</doc>
+<status status="FAIL" starttime="20221117 17:27:30.225" endtime="20221117 17:27:30.238"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
