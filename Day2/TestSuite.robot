@@ -13,7 +13,7 @@ Should Be Equal with Log
 
 *** Test Cases ***
 Test Case
-    Should Be Equal with Log    Kiwi
+    Should Be Equal with Log    Apple
     Log To Console    I'm Done!
 
 

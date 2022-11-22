@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221117 22:02:39.577" rpa="false" schemaversion="3">
-<suite id="s1" name="TestSuite" source="E:\Programowanie\Python-Robot-Framework---Mobica-Warsztat\Day2.1\TestSuite.robot">
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221122 14:35:48.312" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="E:\Programowanie\Python-Robot-Framework---Mobica-Warsztat\Day2\TestSuite.robot">
 <test id="s1-t1" name="Test Case" line="15">
 <kw name="Should Be Equal with Log">
-<arg>Kiwi</arg>
+<arg>Apple</arg>
 <kw name="Log" library="BuiltIn">
 <arg>Szukane słowo to: ${EXPECTED_TEXT}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221117 22:02:39.590" level="INFO">Szukane słowo to: Apple</msg>
-<status status="PASS" starttime="20221117 22:02:39.589" endtime="20221117 22:02:39.590"/>
+<msg timestamp="20221122 14:35:48.329" level="INFO">Szukane słowo to: Apple</msg>
+<status status="PASS" starttime="20221122 14:35:48.329" endtime="20221122 14:35:48.329"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${EXPECTED_TEXT}</arg>
 <arg>${actual}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<msg timestamp="20221117 22:02:39.590" level="FAIL">Apple != Kiwi</msg>
-<status status="FAIL" starttime="20221117 22:02:39.590" endtime="20221117 22:02:39.590"/>
+<status status="PASS" starttime="20221122 14:35:48.329" endtime="20221122 14:35:48.329"/>
 </kw>
-<status status="FAIL" starttime="20221117 22:02:39.589" endtime="20221117 22:02:39.590"/>
+<status status="PASS" starttime="20221122 14:35:48.328" endtime="20221122 14:35:48.329"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>I'm Done!</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" starttime="20221117 22:02:39.590" endtime="20221117 22:02:39.590"/>
+<status status="PASS" starttime="20221122 14:35:48.329" endtime="20221122 14:35:48.329"/>
 </kw>
-<status status="FAIL" starttime="20221117 22:02:39.589" endtime="20221117 22:02:39.590">Apple != Kiwi</status>
+<status status="PASS" starttime="20221122 14:35:48.328" endtime="20221122 14:35:48.329"/>
 </test>
 <doc>Pierwsze testy!</doc>
-<status status="FAIL" starttime="20221117 22:02:39.578" endtime="20221117 22:02:39.591"/>
+<status status="PASS" starttime="20221122 14:35:48.313" endtime="20221122 14:35:48.330"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
 </suite>
 </statistics>
 <errors>

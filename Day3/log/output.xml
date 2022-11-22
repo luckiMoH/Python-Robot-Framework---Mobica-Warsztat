@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221122 16:05:22.792" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="E:\Programowanie\Python-Robot-Framework---Mobica-Warsztat\Day3\TestSuite.robot">
+<test id="s1-t1" name="Test w Run Keyword If" line="48">
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>'${EXPECTED_TEXT}'=='Apple'</arg>
+<arg>Log Info</arg>
+<arg>${EXPECTED_TEXT} jest Jabłkiem</arg>
+<arg>ELSE</arg>
+<arg>Log Warning</arg>
+<arg>${EXPECTED_TEXT} nie jest jabłkiem</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Log Info">
+<arg>${EXPECTED_TEXT} jest Jabłkiem</arg>
+<kw name="Log" library="BuiltIn">
+<arg>${log_message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221122 16:05:22.806" level="INFO">Apple jest Jabłkiem</msg>
+<status status="PASS" starttime="20221122 16:05:22.806" endtime="20221122 16:05:22.807"/>
+</kw>
+<status status="PASS" starttime="20221122 16:05:22.806" endtime="20221122 16:05:22.807"/>
+</kw>
+<status status="PASS" starttime="20221122 16:05:22.805" endtime="20221122 16:05:22.807"/>
+</kw>
+<doc>Potestujemy IFa w RF</doc>
+<status status="PASS" starttime="20221122 16:05:22.805" endtime="20221122 16:05:22.807"/>
+</test>
+<doc>Testy z sesji 3!</doc>
+<status status="PASS" starttime="20221122 16:05:22.794" endtime="20221122 16:05:22.808"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
