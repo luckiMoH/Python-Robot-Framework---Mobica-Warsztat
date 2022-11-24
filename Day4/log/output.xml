@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221124 16:27:37.332" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="E:\Programowanie\Python-Robot-Framework---Mobica-Warsztat\Day4\TestSuite.robot">
+<test id="s1-t1" name="Tworzenie listy" line="8">
+<kw name="Create List" library="BuiltIn">
+<var>@{list}</var>
+<arg>1</arg>
+<arg>2</arg>
+<arg>3</arg>
+<arg>4</arg>
+<arg>5</arg>
+<arg>łoś</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20221124 16:27:37.346" level="INFO">@{list} = [ 1 | 2 | 3 | 4 | 5 | łoś ]</msg>
+<status status="PASS" starttime="20221124 16:27:37.346" endtime="20221124 16:27:37.347"/>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<arg>@{list}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20221124 16:27:37.347" level="INFO">1</msg>
+<msg timestamp="20221124 16:27:37.347" level="INFO">2</msg>
+<msg timestamp="20221124 16:27:37.347" level="INFO">3</msg>
+<msg timestamp="20221124 16:27:37.347" level="INFO">4</msg>
+<msg timestamp="20221124 16:27:37.347" level="INFO">5</msg>
+<msg timestamp="20221124 16:27:37.347" level="INFO">łoś</msg>
+<status status="PASS" starttime="20221124 16:27:37.347" endtime="20221124 16:27:37.347"/>
+</kw>
+<status status="PASS" starttime="20221124 16:27:37.346" endtime="20221124 16:27:37.347"/>
+</test>
+<doc>Testy z sesji 3!</doc>
+<status status="PASS" starttime="20221124 16:27:37.333" endtime="20221124 16:27:37.348"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
